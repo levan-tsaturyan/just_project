@@ -525,11 +525,9 @@ html {
 .footer {
     margin-top: 36px;
     background-color: #2d1c83;
-    /* Фиолетовый фон */
     padding: 40px 0;
     color: white;
     border-radius: 20px;
-    /* Закругление углов */
 }
 
 .footer-container {
@@ -579,7 +577,6 @@ html {
 
 .footer-column ul li:hover {
     color: #ffcc00;
-    /* Желтый при наведении */
 }
 
 .footer-btn {
@@ -825,7 +822,6 @@ body {
 
 .left {
     background: url('../img/second_pic_section_third.png') center/cover no-repeat;
-    /* height: 250px; */
 }
 
 .right {
