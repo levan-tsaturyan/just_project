@@ -804,57 +804,6 @@ body {
     background: #fff;
 }
 
-.container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-}
-
-.box {
-    width: 45%;
-    border-radius: 15px;
-    padding: 20px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.left {
-    background: url('../img/second_pic_section_third.png') center/cover no-repeat;
-}
-
-.right {
-    background: #4326A3;
-    height: 250px;
-    position: relative;
-}
-
-.content {
-    max-width: 70%;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.yellow-btn {
-    background: #FFD700;
-    border: none;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
 .cards {
     display: flex;
     justify-content: center;
