@@ -51,7 +51,6 @@ html {
     background-color: transparent;
     cursor: pointer;
     border: none;
-
     position: relative;
 }
 
@@ -68,7 +67,6 @@ html {
     background-color: transparent;
     cursor: pointer;
     border: none;
-
     position: relative;
 }
 
@@ -277,6 +275,7 @@ html {
     font-weight: 300;
     font-size: 22px;
     color: #000;
+    border: none;
 }
 
 .flex_end_header_second ul li:nth-child(2) button img {
@@ -395,6 +394,7 @@ html {
     color: #000;
     padding-left: 21px;
     padding-right: 21px;
+    border: none;
 }
 
 .wrapper_section_seven h2 {
@@ -522,6 +522,7 @@ html {
     letter-spacing: 0.04em;
     text-align: center;
     color: #000;
+    border: none;
 }
 
 
@@ -595,8 +596,7 @@ html {
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
-    transition: background 0.3s;
-
+    transition: 0.3s;
     width: 248px;
     height: 47px;
 }
@@ -900,6 +900,9 @@ body {
 
 .img_location_first {
     margin-left: 400px;
+    position: absolute;
+    top: 50px;
+    margin-right: 31px;
 }
 
 .first_location h2 {
@@ -997,6 +1000,7 @@ body {
     font-size: 36px;
     line-height: 100%;
     color: #101d3d;
+    margin-bottom: 24px;
 }
 
 .second_location p {
@@ -1005,6 +1009,11 @@ body {
     line-height: 166%;
     letter-spacing: 0.02em;
     color: #333;
+    padding-bottom: 54px;
+}
+
+.second_location hr {
+    margin-bottom: 44px;
 }
 
 .second_location span {
@@ -1025,6 +1034,7 @@ body {
     text-align: center;
     color: #000;
     background: #FFD700;
+    margin-top: 44px;
 }
 
 .wrapper_location_contacts {
